@@ -155,9 +155,18 @@
   }
   
   .project {
-    background: rgb(55, 55, 55);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
+    background-color: rgb(55, 55, 55);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s rgb(0,0,0);
+    
+
+    /* background: rgb(55, 55, 55); */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
   }
   
   .code {
@@ -166,7 +175,7 @@
   }
   
   .project:hover .code {
-    color: #ff7f50;
+    color: rgb(255, 106, 0);
   }
   
   .project-image {
@@ -180,7 +189,9 @@
     padding: 2rem 0.5rem;
   }
   .project:hover {
-    background: rgba(0, 0, 0, 0.79);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.253);
+    transition: 0.3s ;
   }
   
   .btn {
@@ -192,7 +203,7 @@
   .btn-show-all {
     font-size: 2rem;
     background: rgb(55, 55, 55);
-    transition: background 0.3s ease-out;
+    transition:  0.3s ease-out;
   }
   
   .btn-show-all:hover {
