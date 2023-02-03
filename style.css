@@ -134,6 +134,12 @@
     font-style: italic;
     color: rgb(55, 55, 55);
   }
+
+  .skills-section-header {
+    max-width: 800px;
+    margin: 0 auto 6rem auto;
+    margin-bottom: 700px;
+  }
   
   .projects-section {
     text-align: center;
